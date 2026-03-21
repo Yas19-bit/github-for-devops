@@ -15,3 +15,9 @@ w
   17 rm test.py
   18 git restore test.py
   19 git status
+git remote add origin https://github.com/Yas19-bit/github-for-devops.git      
+  29 git -v
+  30 git remote -v
+  31 git remote set-url origin https://ghp_rsq43EnHRGQAdfLZbH9FBWwLyDAIS6Y1TyXs... 
+  32 git remote -v
+  33 git push origin master
