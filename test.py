@@ -1,12 +1,18 @@
-def yash():
+"""
+Simple demonstration module.
+This module contains a sample function for testing.
+"""
 
+
+def yash():
     """
-    this is new
+    Return a greeting message.
+
+    Returns:
+        str: The string "hello"
     """
     return "hello"
 
 
-yash()
-
-
-
+if __name__ == "__main__":
+    yash()
